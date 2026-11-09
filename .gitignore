@@ -1,0 +1,18 @@
+.DS_Store
+
+# Xcode
+xcuserdata/
+DerivedData/
+build/
+*.xcuserstate
+
+# Tuist generates these from Project.swift — never commit them
+*.xcodeproj
+*.xcworkspace
+Derived/
+graph.dot
+Tuist/.build
+
+# SwiftPM
+.build/
+.swiftpm/

@@ -1,0 +1,5 @@
+# Tool versions for everyone working on Ledgerline. Run `make setup` (or `mise install`) after cloning.
+[tools]
+tuist = "4.215.0"
+swiftlint = "0.65.1"
+xcbeautify = "3.2.1"

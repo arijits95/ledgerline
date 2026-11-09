@@ -1,0 +1,20 @@
+# SwiftLint rules for Ledgerline. Run with `make lint`; warnings fail the lint (--strict).
+included:
+  - App
+  - Project.swift
+  - Tuist.swift
+
+excluded:
+  - Derived
+
+opt_in_rules:
+  - closure_spacing
+  - empty_count
+  - first_where
+  - sorted_imports
+  - toggle_bool
+  - vertical_whitespace_closing_braces
+
+# Require trailing commas in multi-line collections: one-line diffs and fewer merge conflicts.
+trailing_comma:
+  mandatory_comma: true
